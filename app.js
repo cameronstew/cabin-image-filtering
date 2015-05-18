@@ -10,4 +10,10 @@ $(document).ready(function() {
 	$('.forest').on('click', function(){
 		$('body').css({"background": "url('img/forest.jpg')", "background-size": "cover"});
 	});
-})
+
+
+
+	$('.low').on('click', function(){
+		tinysort('article',{attr:'data-price'});
+	});
+});
