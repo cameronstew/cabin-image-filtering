@@ -16,4 +16,7 @@ $(document).ready(function() {
 	$('.low').on('click', function(){
 		tinysort('article',{attr:'data-price'});
 	});
+	$('.high').on('click', function(){
+		tinysort('article',{attr:'data-price', order:'desc'});
+	});
 });
